@@ -1,0 +1,8 @@
+ {
+    "llm_backend": "openrouter",
+    "ollama_model": "qwen3:1.7b",
+    "ollama_url": "http://localhost:11434",
+    "anthropic_model": "claude-sonnet-4-6",
+    "openrouter_model": "deepseek/deepseek-chat",
+    "openrouter_url": "https://openrouter.ai/api/v1"
+  }

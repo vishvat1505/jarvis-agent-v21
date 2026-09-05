@@ -1,0 +1,24 @@
+{
+  "_note": "Using free-claude-code proxy — token matches .env ANTHROPIC_AUTH_TOKEN=freecc",
+
+  "llm_backend": "fcc",
+
+  "fcc_url":     "http://127.0.0.1:8082",
+  "fcc_token":   "freecc",
+  "fcc_model":   "claude-sonnet-4-6",
+  "fcc_max_tokens": 2048,
+
+  "openrouter_api_key": "",
+  "openrouter_model":   "deepseek/deepseek-r1:free",
+  "openrouter_url":     "https://openrouter.ai/api/v1",
+
+  "ollama_url":         "http://localhost:11434",
+  "ollama_model":       "qwen3:1.7b",
+  "ollama_num_ctx":     2048,
+  "ollama_num_predict": 500,
+  "ollama_temperature": 0.4,
+
+  "anthropic_api_key":  "",
+  "anthropic_model":    "claude-sonnet-4-6",
+  "anthropic_max_tokens": 2048
+}
